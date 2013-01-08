@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05059C8413AB035F00A09408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05059C8313AB035F00A09408 /* UIKit.framework */; };
+		05059C8613AB035F00A09408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05059C8513AB035F00A09408 /* Foundation.framework */; };
+		05059C8813AB035F00A09408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05059C8713AB035F00A09408 /* CoreGraphics.framework */; };
+		05059C8E13AB035F00A09408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05059C8C13AB035F00A09408 /* InfoPlist.strings */; };
+		05059C9113AB035F00A09408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05059C9013AB035F00A09408 /* main.m */; };
+		05059C9413AB035F00A09408 /* iMpulseTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05059C9313AB035F00A09408 /* iMpulseTestAppDelegate.m */; };
+		05059C9713AB035F00A09408 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05059C9513AB035F00A09408 /* MainWindow.xib */; };
+		05059C9A13AB035F00A09408 /* iMpulseTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05059C9913AB035F00A09408 /* iMpulseTestViewController.m */; };
+		05059C9D13AB035F00A09408 /* iMpulseTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05059C9B13AB035F00A09408 /* iMpulseTestViewController.xib */; };
+		05059CD413AB34B300A09408 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 05059CD313AB34B300A09408 /* Icon.png */; };
+		A49127BE169B6649001AA600 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A49127BD169B6649001AA600 /* Default-568h@2x.png */; };
+		A4912804169B6B1B001AA600 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912803169B6B1B001AA600 /* Default.png */; };
+		A4912806169B6B28001AA600 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912805169B6B28001AA600 /* Default@2x.png */; };
+		A4912808169B6B6C001AA600 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912807169B6B6C001AA600 /* Default-Portrait~ipad.png */; };
+		A491280A169B6B7E001AA600 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912809169B6B7E001AA600 /* Default-Portrait@2x~ipad.png */; };
+		A491280C169B6BA1001AA600 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A491280B169B6BA1001AA600 /* Default-Landscape~ipad.png */; };
+		A491280E169B6BAD001AA600 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A491280D169B6BAD001AA600 /* Default-Landscape@2x~ipad.png */; };
+		A491283B169BB9D6001AA600 /* iMpulse-A.png in Resources */ = {isa = PBXBuildFile; fileRef = A491282F169BB9D5001AA600 /* iMpulse-A.png */; };
+		A491283C169BB9D6001AA600 /* iMpulse-body.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912830169BB9D5001AA600 /* iMpulse-body.png */; };
+		A491283D169BB9D6001AA600 /* iMpulse-Dn.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912831169BB9D5001AA600 /* iMpulse-Dn.png */; };
+		A491283E169BB9D6001AA600 /* iMpulse-Lt.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912832169BB9D5001AA600 /* iMpulse-Lt.png */; };
+		A491283F169BB9D6001AA600 /* iMpulse-M.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912833169BB9D5001AA600 /* iMpulse-M.png */; };
+		A4912840169BB9D6001AA600 /* iMpulse-mode.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912834169BB9D5001AA600 /* iMpulse-mode.png */; };
+		A4912841169BB9D6001AA600 /* iMpulse-n.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912835169BB9D5001AA600 /* iMpulse-n.png */; };
+		A4912842169BB9D6001AA600 /* iMpulse-Rt.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912836169BB9D5001AA600 /* iMpulse-Rt.png */; };
+		A4912843169BB9D6001AA600 /* iMpulse-u.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912837169BB9D5001AA600 /* iMpulse-u.png */; };
+		A4912844169BB9D6001AA600 /* iMpulse-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912838169BB9D6001AA600 /* iMpulse-Up.png */; };
+		A4912845169BB9D6001AA600 /* iMpulse-V.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912839169BB9D6001AA600 /* iMpulse-V.png */; };
+		A4912846169BB9D6001AA600 /* iMpulse-W.png in Resources */ = {isa = PBXBuildFile; fileRef = A491283A169BB9D6001AA600 /* iMpulse-W.png */; };
+		A49A642515D9B87E00268952 /* iMpulseReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49A642315D9B87E00268952 /* iMpulseReaderView.m */; };
+		A4B69DEF16979AE500D873B1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4B69DEE16979AE500D873B1 /* README.txt */; };
+		A4F460DA15DB390500AFCF07 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F460D915DB390500AFCF07 /* Icon57.png */; };
+		A4F460DC15DB3A6700AFCF07 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F460DB15DB3A6700AFCF07 /* Icon114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05059C7F13AB035F00A09408 /* iMpulseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMpulseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05059C8313AB035F00A09408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05059C8513AB035F00A09408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05059C8713AB035F00A09408 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05059C8B13AB035F00A09408 /* iMpulseTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMpulseTest-Info.plist"; sourceTree = "<group>"; };
+		05059C8D13AB035F00A09408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05059C8F13AB035F00A09408 /* iMpulseTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMpulseTest-Prefix.pch"; sourceTree = "<group>"; };
+		05059C9013AB035F00A09408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05059C9213AB035F00A09408 /* iMpulseTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMpulseTestAppDelegate.h; sourceTree = "<group>"; };
+		05059C9313AB035F00A09408 /* iMpulseTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMpulseTestAppDelegate.m; sourceTree = "<group>"; };
+		05059C9613AB035F00A09408 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		05059C9813AB035F00A09408 /* iMpulseTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMpulseTestViewController.h; sourceTree = "<group>"; };
+		05059C9913AB035F00A09408 /* iMpulseTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMpulseTestViewController.m; sourceTree = "<group>"; };
+		05059C9C13AB035F00A09408 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iMpulseTestViewController.xib; sourceTree = "<group>"; };
+		05059CD313AB34B300A09408 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		A49127BD169B6649001AA600 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4912803169B6B1B001AA600 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4912805169B6B28001AA600 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4912807169B6B6C001AA600 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		A4912809169B6B7E001AA600 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		A491280B169B6BA1001AA600 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		A491280D169B6BAD001AA600 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		A491282F169BB9D5001AA600 /* iMpulse-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-A.png"; sourceTree = "<group>"; };
+		A4912830169BB9D5001AA600 /* iMpulse-body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-body.png"; sourceTree = "<group>"; };
+		A4912831169BB9D5001AA600 /* iMpulse-Dn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Dn.png"; sourceTree = "<group>"; };
+		A4912832169BB9D5001AA600 /* iMpulse-Lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Lt.png"; sourceTree = "<group>"; };
+		A4912833169BB9D5001AA600 /* iMpulse-M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-M.png"; sourceTree = "<group>"; };
+		A4912834169BB9D5001AA600 /* iMpulse-mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-mode.png"; sourceTree = "<group>"; };
+		A4912835169BB9D5001AA600 /* iMpulse-n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-n.png"; sourceTree = "<group>"; };
+		A4912836169BB9D5001AA600 /* iMpulse-Rt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Rt.png"; sourceTree = "<group>"; };
+		A4912837169BB9D5001AA600 /* iMpulse-u.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-u.png"; sourceTree = "<group>"; };
+		A4912838169BB9D6001AA600 /* iMpulse-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Up.png"; sourceTree = "<group>"; };
+		A4912839169BB9D6001AA600 /* iMpulse-V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-V.png"; sourceTree = "<group>"; };
+		A491283A169BB9D6001AA600 /* iMpulse-W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-W.png"; sourceTree = "<group>"; };
+		A49A642215D9B87E00268952 /* iMpulseReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMpulseReaderView.h; sourceTree = "<group>"; };
+		A49A642315D9B87E00268952 /* iMpulseReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMpulseReaderView.m; sourceTree = "<group>"; };
+		A49A642415D9B87E00268952 /* iMpulseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMpulseState.h; sourceTree = "<group>"; };
+		A4B69DEE16979AE500D873B1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = SOURCE_ROOT; };
+		A4F460D915DB390500AFCF07 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57.png; path = ../Icon57.png; sourceTree = "<group>"; };
+		A4F460DB15DB3A6700AFCF07 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon114.png; path = ../Icon114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05059C7C13AB035F00A09408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05059C8413AB035F00A09408 /* UIKit.framework in Frameworks */,
+				05059C8613AB035F00A09408 /* Foundation.framework in Frameworks */,
+				05059C8813AB035F00A09408 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05059C7413AB035F00A09408 = {
+			isa = PBXGroup;
+			children = (
+				A491280D169B6BAD001AA600 /* Default-Landscape@2x~ipad.png */,
+				A491280B169B6BA1001AA600 /* Default-Landscape~ipad.png */,
+				A4912809169B6B7E001AA600 /* Default-Portrait@2x~ipad.png */,
+				A4912807169B6B6C001AA600 /* Default-Portrait~ipad.png */,
+				A4912805169B6B28001AA600 /* Default@2x.png */,
+				A4912803169B6B1B001AA600 /* Default.png */,
+				A49127BD169B6649001AA600 /* Default-568h@2x.png */,
+				05059C8913AB035F00A09408 /* iMpulseTest */,
+				05059C8213AB035F00A09408 /* Frameworks */,
+				05059C8013AB035F00A09408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05059C8013AB035F00A09408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05059C7F13AB035F00A09408 /* iMpulseTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05059C8213AB035F00A09408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05059C8313AB035F00A09408 /* UIKit.framework */,
+				05059C8513AB035F00A09408 /* Foundation.framework */,
+				05059C8713AB035F00A09408 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05059C8913AB035F00A09408 /* iMpulseTest */ = {
+			isa = PBXGroup;
+			children = (
+				A4B69DEE16979AE500D873B1 /* README.txt */,
+				A49A642115D9B87E00268952 /* iMpulse */,
+				05059C9213AB035F00A09408 /* iMpulseTestAppDelegate.h */,
+				05059C9313AB035F00A09408 /* iMpulseTestAppDelegate.m */,
+				05059C9513AB035F00A09408 /* MainWindow.xib */,
+				05059C9813AB035F00A09408 /* iMpulseTestViewController.h */,
+				05059C9913AB035F00A09408 /* iMpulseTestViewController.m */,
+				05059C9B13AB035F00A09408 /* iMpulseTestViewController.xib */,
+				05059C8A13AB035F00A09408 /* Supporting Files */,
+			);
+			path = iMpulseTest;
+			sourceTree = "<group>";
+		};
+		05059C8A13AB035F00A09408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F460DB15DB3A6700AFCF07 /* Icon114.png */,
+				A4F460D915DB390500AFCF07 /* Icon57.png */,
+				05059CD313AB34B300A09408 /* Icon.png */,
+				05059CC413AB20E000A09408 /* images */,
+				05059C8B13AB035F00A09408 /* iMpulseTest-Info.plist */,
+				05059C8C13AB035F00A09408 /* InfoPlist.strings */,
+				05059C8F13AB035F00A09408 /* iMpulseTest-Prefix.pch */,
+				05059C9013AB035F00A09408 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05059CC413AB20E000A09408 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A491282F169BB9D5001AA600 /* iMpulse-A.png */,
+				A4912830169BB9D5001AA600 /* iMpulse-body.png */,
+				A4912831169BB9D5001AA600 /* iMpulse-Dn.png */,
+				A4912832169BB9D5001AA600 /* iMpulse-Lt.png */,
+				A4912833169BB9D5001AA600 /* iMpulse-M.png */,
+				A4912834169BB9D5001AA600 /* iMpulse-mode.png */,
+				A4912835169BB9D5001AA600 /* iMpulse-n.png */,
+				A4912836169BB9D5001AA600 /* iMpulse-Rt.png */,
+				A4912837169BB9D5001AA600 /* iMpulse-u.png */,
+				A4912838169BB9D6001AA600 /* iMpulse-Up.png */,
+				A4912839169BB9D6001AA600 /* iMpulse-V.png */,
+				A491283A169BB9D6001AA600 /* iMpulse-W.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A49A642115D9B87E00268952 /* iMpulse */ = {
+			isa = PBXGroup;
+			children = (
+				A49A642215D9B87E00268952 /* iMpulseReaderView.h */,
+				A49A642315D9B87E00268952 /* iMpulseReaderView.m */,
+				A49A642415D9B87E00268952 /* iMpulseState.h */,
+			);
+			path = iMpulse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05059C7E13AB035F00A09408 /* iMpulseTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05059CA013AB035F00A09408 /* Build configuration list for PBXNativeTarget "iMpulseTest" */;
+			buildPhases = (
+				05059C7B13AB035F00A09408 /* Sources */,
+				05059C7C13AB035F00A09408 /* Frameworks */,
+				05059C7D13AB035F00A09408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMpulseTest;
+			productName = iMpulseTest;
+			productReference = 05059C7F13AB035F00A09408 /* iMpulseTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05059C7613AB035F00A09408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "BlackPowderMedia LLC";
+			};
+			buildConfigurationList = 05059C7913AB035F00A09408 /* Build configuration list for PBXProject "iMpulseTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05059C7413AB035F00A09408;
+			productRefGroup = 05059C8013AB035F00A09408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05059C7E13AB035F00A09408 /* iMpulseTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05059C7D13AB035F00A09408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05059C8E13AB035F00A09408 /* InfoPlist.strings in Resources */,
+				05059C9713AB035F00A09408 /* MainWindow.xib in Resources */,
+				05059C9D13AB035F00A09408 /* iMpulseTestViewController.xib in Resources */,
+				05059CD413AB34B300A09408 /* Icon.png in Resources */,
+				A4F460DA15DB390500AFCF07 /* Icon57.png in Resources */,
+				A4F460DC15DB3A6700AFCF07 /* Icon114.png in Resources */,
+				A4B69DEF16979AE500D873B1 /* README.txt in Resources */,
+				A49127BE169B6649001AA600 /* Default-568h@2x.png in Resources */,
+				A4912804169B6B1B001AA600 /* Default.png in Resources */,
+				A4912806169B6B28001AA600 /* Default@2x.png in Resources */,
+				A4912808169B6B6C001AA600 /* Default-Portrait~ipad.png in Resources */,
+				A491280A169B6B7E001AA600 /* Default-Portrait@2x~ipad.png in Resources */,
+				A491280C169B6BA1001AA600 /* Default-Landscape~ipad.png in Resources */,
+				A491280E169B6BAD001AA600 /* Default-Landscape@2x~ipad.png in Resources */,
+				A491283B169BB9D6001AA600 /* iMpulse-A.png in Resources */,
+				A491283C169BB9D6001AA600 /* iMpulse-body.png in Resources */,
+				A491283D169BB9D6001AA600 /* iMpulse-Dn.png in Resources */,
+				A491283E169BB9D6001AA600 /* iMpulse-Lt.png in Resources */,
+				A491283F169BB9D6001AA600 /* iMpulse-M.png in Resources */,
+				A4912840169BB9D6001AA600 /* iMpulse-mode.png in Resources */,
+				A4912841169BB9D6001AA600 /* iMpulse-n.png in Resources */,
+				A4912842169BB9D6001AA600 /* iMpulse-Rt.png in Resources */,
+				A4912843169BB9D6001AA600 /* iMpulse-u.png in Resources */,
+				A4912844169BB9D6001AA600 /* iMpulse-Up.png in Resources */,
+				A4912845169BB9D6001AA600 /* iMpulse-V.png in Resources */,
+				A4912846169BB9D6001AA600 /* iMpulse-W.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05059C7B13AB035F00A09408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05059C9113AB035F00A09408 /* main.m in Sources */,
+				05059C9413AB035F00A09408 /* iMpulseTestAppDelegate.m in Sources */,
+				05059C9A13AB035F00A09408 /* iMpulseTestViewController.m in Sources */,
+				A49A642515D9B87E00268952 /* iMpulseReaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05059C8C13AB035F00A09408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05059C8D13AB035F00A09408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05059C9513AB035F00A09408 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05059C9613AB035F00A09408 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		05059C9B13AB035F00A09408 /* iMpulseTestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05059C9C13AB035F00A09408 /* en */,
+			);
+			name = iMpulseTestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05059C9E13AB035F00A09408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		05059C9F13AB035F00A09408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		05059CA113AB035F00A09408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMpulseTest/iMpulseTest-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iMpulseTest/iMpulseTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05059CA213AB035F00A09408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMpulseTest/iMpulseTest-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "iMpulseTest/iMpulseTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05059C7913AB035F00A09408 /* Build configuration list for PBXProject "iMpulseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05059C9E13AB035F00A09408 /* Debug */,
+				05059C9F13AB035F00A09408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05059CA013AB035F00A09408 /* Build configuration list for PBXNativeTarget "iMpulseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05059CA113AB035F00A09408 /* Debug */,
+				05059CA213AB035F00A09408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05059C7613AB035F00A09408 /* Project object */;
+}
