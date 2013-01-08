@@ -36,10 +36,23 @@
 		A4912844169BB9D6001AA600 /* iMpulse-Up.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912838169BB9D6001AA600 /* iMpulse-Up.png */; };
 		A4912845169BB9D6001AA600 /* iMpulse-V.png in Resources */ = {isa = PBXBuildFile; fileRef = A4912839169BB9D6001AA600 /* iMpulse-V.png */; };
 		A4912846169BB9D6001AA600 /* iMpulse-W.png in Resources */ = {isa = PBXBuildFile; fileRef = A491283A169BB9D6001AA600 /* iMpulse-W.png */; };
+		A4953963169BE8D80070E6A9 /* iMpulseTestViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4953961169BE8D80070E6A9 /* iMpulseTestViewController~ipad.xib */; };
 		A49A642515D9B87E00268952 /* iMpulseReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A49A642315D9B87E00268952 /* iMpulseReaderView.m */; };
 		A4B69DEF16979AE500D873B1 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4B69DEE16979AE500D873B1 /* README.txt */; };
 		A4F460DA15DB390500AFCF07 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F460D915DB390500AFCF07 /* Icon57.png */; };
 		A4F460DC15DB3A6700AFCF07 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F460DB15DB3A6700AFCF07 /* Icon114.png */; };
+		A4FD52A6169BF4FF00870F43 /* iMpulse-A@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD529A169BF4FF00870F43 /* iMpulse-A@2x.png */; };
+		A4FD52A7169BF4FF00870F43 /* iMpulse-body@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD529B169BF4FF00870F43 /* iMpulse-body@2x.png */; };
+		A4FD52A8169BF4FF00870F43 /* iMpulse-Dn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD529C169BF4FF00870F43 /* iMpulse-Dn@2x.png */; };
+		A4FD52A9169BF4FF00870F43 /* iMpulse-Lt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD529D169BF4FF00870F43 /* iMpulse-Lt@2x.png */; };
+		A4FD52AA169BF4FF00870F43 /* iMpulse-M@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD529E169BF4FF00870F43 /* iMpulse-M@2x.png */; };
+		A4FD52AB169BF4FF00870F43 /* iMpulse-mode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD529F169BF4FF00870F43 /* iMpulse-mode@2x.png */; };
+		A4FD52AC169BF4FF00870F43 /* iMpulse-n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD52A0169BF4FF00870F43 /* iMpulse-n@2x.png */; };
+		A4FD52AD169BF4FF00870F43 /* iMpulse-Rt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD52A1169BF4FF00870F43 /* iMpulse-Rt@2x.png */; };
+		A4FD52AE169BF4FF00870F43 /* iMpulse-u@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD52A2169BF4FF00870F43 /* iMpulse-u@2x.png */; };
+		A4FD52AF169BF4FF00870F43 /* iMpulse-Up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD52A3169BF4FF00870F43 /* iMpulse-Up@2x.png */; };
+		A4FD52B0169BF4FF00870F43 /* iMpulse-V@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD52A4169BF4FF00870F43 /* iMpulse-V@2x.png */; };
+		A4FD52B1169BF4FF00870F43 /* iMpulse-W@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4FD52A5169BF4FF00870F43 /* iMpulse-W@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,12 +90,25 @@
 		A4912838169BB9D6001AA600 /* iMpulse-Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Up.png"; sourceTree = "<group>"; };
 		A4912839169BB9D6001AA600 /* iMpulse-V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-V.png"; sourceTree = "<group>"; };
 		A491283A169BB9D6001AA600 /* iMpulse-W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-W.png"; sourceTree = "<group>"; };
+		A4953962169BE8D80070E6A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/iMpulseTestViewController~ipad.xib"; sourceTree = "<group>"; };
 		A49A642215D9B87E00268952 /* iMpulseReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMpulseReaderView.h; sourceTree = "<group>"; };
 		A49A642315D9B87E00268952 /* iMpulseReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMpulseReaderView.m; sourceTree = "<group>"; };
 		A49A642415D9B87E00268952 /* iMpulseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMpulseState.h; sourceTree = "<group>"; };
 		A4B69DEE16979AE500D873B1 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = SOURCE_ROOT; };
 		A4F460D915DB390500AFCF07 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57.png; path = ../Icon57.png; sourceTree = "<group>"; };
 		A4F460DB15DB3A6700AFCF07 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon114.png; path = ../Icon114.png; sourceTree = "<group>"; };
+		A4FD529A169BF4FF00870F43 /* iMpulse-A@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-A@2x.png"; sourceTree = "<group>"; };
+		A4FD529B169BF4FF00870F43 /* iMpulse-body@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-body@2x.png"; sourceTree = "<group>"; };
+		A4FD529C169BF4FF00870F43 /* iMpulse-Dn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Dn@2x.png"; sourceTree = "<group>"; };
+		A4FD529D169BF4FF00870F43 /* iMpulse-Lt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Lt@2x.png"; sourceTree = "<group>"; };
+		A4FD529E169BF4FF00870F43 /* iMpulse-M@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-M@2x.png"; sourceTree = "<group>"; };
+		A4FD529F169BF4FF00870F43 /* iMpulse-mode@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-mode@2x.png"; sourceTree = "<group>"; };
+		A4FD52A0169BF4FF00870F43 /* iMpulse-n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-n@2x.png"; sourceTree = "<group>"; };
+		A4FD52A1169BF4FF00870F43 /* iMpulse-Rt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Rt@2x.png"; sourceTree = "<group>"; };
+		A4FD52A2169BF4FF00870F43 /* iMpulse-u@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-u@2x.png"; sourceTree = "<group>"; };
+		A4FD52A3169BF4FF00870F43 /* iMpulse-Up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-Up@2x.png"; sourceTree = "<group>"; };
+		A4FD52A4169BF4FF00870F43 /* iMpulse-V@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-V@2x.png"; sourceTree = "<group>"; };
+		A4FD52A5169BF4FF00870F43 /* iMpulse-W@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMpulse-W@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +170,7 @@
 				05059C9813AB035F00A09408 /* iMpulseTestViewController.h */,
 				05059C9913AB035F00A09408 /* iMpulseTestViewController.m */,
 				05059C9B13AB035F00A09408 /* iMpulseTestViewController.xib */,
+				A4953961169BE8D80070E6A9 /* iMpulseTestViewController~ipad.xib */,
 				05059C8A13AB035F00A09408 /* Supporting Files */,
 			);
 			path = iMpulseTest;
@@ -169,6 +196,18 @@
 			children = (
 				A491282F169BB9D5001AA600 /* iMpulse-A.png */,
 				A4912830169BB9D5001AA600 /* iMpulse-body.png */,
+				A4FD529A169BF4FF00870F43 /* iMpulse-A@2x.png */,
+				A4FD529B169BF4FF00870F43 /* iMpulse-body@2x.png */,
+				A4FD529C169BF4FF00870F43 /* iMpulse-Dn@2x.png */,
+				A4FD529D169BF4FF00870F43 /* iMpulse-Lt@2x.png */,
+				A4FD529E169BF4FF00870F43 /* iMpulse-M@2x.png */,
+				A4FD529F169BF4FF00870F43 /* iMpulse-mode@2x.png */,
+				A4FD52A0169BF4FF00870F43 /* iMpulse-n@2x.png */,
+				A4FD52A1169BF4FF00870F43 /* iMpulse-Rt@2x.png */,
+				A4FD52A2169BF4FF00870F43 /* iMpulse-u@2x.png */,
+				A4FD52A3169BF4FF00870F43 /* iMpulse-Up@2x.png */,
+				A4FD52A4169BF4FF00870F43 /* iMpulse-V@2x.png */,
+				A4FD52A5169BF4FF00870F43 /* iMpulse-W@2x.png */,
 				A4912831169BB9D5001AA600 /* iMpulse-Dn.png */,
 				A4912832169BB9D5001AA600 /* iMpulse-Lt.png */,
 				A4912833169BB9D5001AA600 /* iMpulse-M.png */,
@@ -270,6 +309,19 @@
 				A4912844169BB9D6001AA600 /* iMpulse-Up.png in Resources */,
 				A4912845169BB9D6001AA600 /* iMpulse-V.png in Resources */,
 				A4912846169BB9D6001AA600 /* iMpulse-W.png in Resources */,
+				A4953963169BE8D80070E6A9 /* iMpulseTestViewController~ipad.xib in Resources */,
+				A4FD52A6169BF4FF00870F43 /* iMpulse-A@2x.png in Resources */,
+				A4FD52A7169BF4FF00870F43 /* iMpulse-body@2x.png in Resources */,
+				A4FD52A8169BF4FF00870F43 /* iMpulse-Dn@2x.png in Resources */,
+				A4FD52A9169BF4FF00870F43 /* iMpulse-Lt@2x.png in Resources */,
+				A4FD52AA169BF4FF00870F43 /* iMpulse-M@2x.png in Resources */,
+				A4FD52AB169BF4FF00870F43 /* iMpulse-mode@2x.png in Resources */,
+				A4FD52AC169BF4FF00870F43 /* iMpulse-n@2x.png in Resources */,
+				A4FD52AD169BF4FF00870F43 /* iMpulse-Rt@2x.png in Resources */,
+				A4FD52AE169BF4FF00870F43 /* iMpulse-u@2x.png in Resources */,
+				A4FD52AF169BF4FF00870F43 /* iMpulse-Up@2x.png in Resources */,
+				A4FD52B0169BF4FF00870F43 /* iMpulse-V@2x.png in Resources */,
+				A4FD52B1169BF4FF00870F43 /* iMpulse-W@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +364,14 @@
 				05059C9C13AB035F00A09408 /* en */,
 			);
 			name = iMpulseTestViewController.xib;
+			sourceTree = "<group>";
+		};
+		A4953961169BE8D80070E6A9 /* iMpulseTestViewController~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4953962169BE8D80070E6A9 /* en */,
+			);
+			name = "iMpulseTestViewController~ipad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

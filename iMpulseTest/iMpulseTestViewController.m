@@ -149,39 +149,6 @@
         case iMpulseJoystick2Down:
             buttonDn.selected = state;
             break;
-
-/*@killme!
- const CGFloat offset = 15.0f;
-        case iMpulseJoystickUp:
-            if (state) {
-                center.y -= offset;
-            } else {
-                center.y += offset;
-            }
-            break;
-        case iMpulseJoystickRight:
-            if (state) {
-                center.x += offset;
-            } else {
-                center.x -= offset;
-            }
-            break;
-        case iMpulseJoystickDown:
-            if (state) {
-                center.y += offset;
-            } else {
-                center.y -= offset;
-            }
-            break;
-        case iMpulseJoystickLeft:
-            if (state) {
-                center.x -= offset;
-            } else {
-                center.x += offset;
-            }
-            break;
-*/
-            
         default:
             break;
     }

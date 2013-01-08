@@ -36,7 +36,28 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+        if ([UIScreen mainScreen].scale == 2.0f) {
+            CGSize result = [[UIScreen mainScreen] bounds].size;
+            CGFloat scale = [UIScreen mainScreen].scale;
+            result = CGSizeMake(result.width * scale, result.height * scale);
+            
+            if(result.height == 960){
+                NSLog(@"iPhone 4, 4s Retina Resolution");
+            }
+            if(result.height == 1136){
+                NSLog(@"iPhone 5 Resolution");
+            }
+        } else {
+            NSLog(@"iPhone Standard Resolution");
+        }
+    } else {
+        if ([UIScreen mainScreen].scale == 2.0f) {
+            NSLog(@"iPad Retina Resolution");
+        } else{
+            NSLog(@"iPad Standard Resolution");
+        }
+    }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
