@@ -52,22 +52,22 @@ typedef enum iMpulseState {
     iMpulseButton1A            = 0x800,
 
 // iMpulse new 2 player mode:
-    iMpulseJoystick2Up         = 0x1000,
+    iMpulseJoystick2Up         = 0x01000,
     iMpulseJoystick2Right      = GenericButtonE,
-    iMpulseJoystick2Down       = GenericButtonC,
-    iMpulseJoystick2Left       = 0x2000,
+    iMpulseJoystick2Down       = 0x02000,
+    iMpulseJoystick2Left       = GenericButtonC,
 
     iMpulseJoystick2UpRight    = iMpulseJoystick2Up   | iMpulseJoystick2Right,
     iMpulseJoystick2DownRight  = iMpulseJoystick2Down | iMpulseJoystick2Right,
     iMpulseJoystick2UpLeft     = iMpulseJoystick2Up   | iMpulseJoystick2Left,
     iMpulseJoystick2DownLeft   = iMpulseJoystick2Down | iMpulseJoystick2Left,
     
-    iMpulseButton2V            = 0x10000,
-    iMpulseButton2W            = 0x20000,
-    iMpulseButton2M            = 0x40000,
-    iMpulseButton2A            = 0x80000,
-    iMpulseButton2u            = 0x100000,
-    iMpulseButton2n            = 0x200000,
+    iMpulseButton2V            = 0x04000,
+    iMpulseButton2W            = 0x08000,
+    iMpulseButton2M            = 0x10000,
+    iMpulseButton2A            = 0x20000,
+    iMpulseButton2u            = 0x40000,
+    iMpulseButton2n            = 0x80000,
     
     iMpulsePlayer1              = iMpulseJoystickUp | iMpulseJoystickRight | iMpulseJoystickDown | iMpulseJoystickLeft \
                                 | iMpulseButton1V | iMpulseButton1u  | iMpulseButton1n | iMpulseButton1W \
